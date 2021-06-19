@@ -8,7 +8,7 @@ var data = {
   "Alumno": "Franz David Burneo Monteros",
   "Período": "Abr/Ago 2021",
   "Lenguaje de programación preferido": "JavaScript",
-  "Aspiración PostGraduación": "Me gustaría especializarme en aplicaciones móviles, con frameworks y nativas y aprendiendo a fondo todo lo que pueda"
+  "Aspiración PostGraduación": "ASPIRACION"
 }; 
 
 app.get('/', (req, res) => {
@@ -16,5 +16,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(3000, () => {
-    console.log(`My REST API running on port 3000!`);
+    console.log(`My REST API running on port 3000!`);   
 })
